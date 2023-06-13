@@ -1,8 +1,11 @@
 package com.example.Ex31ControllerProtection.entities;
 
-import jakarta.persistence.*;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
